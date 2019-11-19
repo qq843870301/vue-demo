@@ -10,6 +10,10 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },{
+      path: '/form',
+      name: 'form',
+      component: () => import('@/views/Form.vue'),
     }
   ]
 })
